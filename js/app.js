@@ -33,7 +33,8 @@ const displayResult = (books) => {
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item fs-2"><span class="text-success fs-1">Name:</span> ${book.title ? book.title : ''}</li>
                         <li class="list-group-item fs-3"><span class="text-success fs-2">Author:</span> ${book.author_name ? book.author_name : ''}</li>
-                        <li class="list-group-item fs-4"><span class="text-success fs-3">Published:</span> ${book.publish_date ? book.publish_date : ''}</li>
+                        <li class="list-group-item fs-4"><span class="text-success fs-3">Publisher:</span> ${book.publisher ? book.publisher : ''}</li>
+                        <li class="list-group-item fs-5"><span class="text-success fs-4">Published:</span> ${book.publish_date ? book.publish_date : ''}</li>
                     </ul>
                 </div>
         `;
